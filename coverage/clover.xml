@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1689648765393" clover="3.2.0">
+  <project timestamp="1689648765393" name="All files">
+    <metrics statements="66" coveredstatements="66" conditionals="8" coveredconditionals="8" methods="13" coveredmethods="13" elements="87" coveredelements="87" complexity="0" loc="66" ncloc="66" packages="4" files="7" classes="7"/>
+    <package name="controllers">
+      <metrics statements="21" coveredstatements="21" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="DashboardController.ts" path="C:\Users\gusta\projetos\kpi\kpi-api\src\controllers\DashboardController.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+      <file name="UserController.ts" path="C:\Users\gusta\projetos\kpi\kpi-api\src\controllers\UserController.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+      <file name="UsersManagerController.ts" path="C:\Users\gusta\projetos\kpi\kpi-api\src\controllers\UsersManagerController.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="helpers">
+      <metrics statements="39" coveredstatements="39" conditionals="8" coveredconditionals="8" methods="9" coveredmethods="9"/>
+      <file name="OrganizationTree.ts" path="C:\Users\gusta\projetos\kpi\kpi-api\src\helpers\OrganizationTree.ts">
+        <metrics statements="39" coveredstatements="39" conditionals="8" coveredconditionals="8" methods="9" coveredmethods="9"/>
+        <line num="8" count="700" type="stmt"/>
+        <line num="9" count="700" type="stmt"/>
+        <line num="18" count="6" type="stmt"/>
+        <line num="19" count="6" type="stmt"/>
+        <line num="22" count="6" type="stmt"/>
+        <line num="23" count="600" type="stmt"/>
+        <line num="26" count="6" type="stmt"/>
+        <line num="30" count="6" type="stmt"/>
+        <line num="31" count="6" type="stmt"/>
+        <line num="35" count="9" type="stmt"/>
+        <line num="36" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="37" count="9" type="stmt"/>
+        <line num="43" count="700" type="stmt"/>
+        <line num="44" count="700" type="stmt"/>
+        <line num="46" count="700" type="stmt"/>
+        <line num="47" count="693" type="stmt"/>
+        <line num="48" count="693" type="stmt"/>
+        <line num="51" count="700" type="stmt"/>
+        <line num="55" count="701" type="stmt"/>
+        <line num="57" count="701" type="stmt"/>
+        <line num="58" count="70100" type="cond" truecount="3" falsecount="0"/>
+        <line num="59" count="696" type="stmt"/>
+        <line num="63" count="701" type="stmt"/>
+        <line num="67" count="1" type="stmt"/>
+        <line num="69" count="1" type="stmt"/>
+        <line num="70" count="9" type="cond" truecount="3" falsecount="0"/>
+        <line num="71" count="9" type="stmt"/>
+        <line num="72" count="9" type="stmt"/>
+        <line num="73" count="8" type="stmt"/>
+        <line num="78" count="1" type="stmt"/>
+        <line num="79" count="1" type="stmt"/>
+        <line num="81" count="1" type="stmt"/>
+        <line num="85" count="2" type="stmt"/>
+        <line num="87" count="2" type="stmt"/>
+        <line num="88" count="16" type="stmt"/>
+        <line num="89" count="16" type="cond" truecount="1" falsecount="0"/>
+        <line num="90" count="2" type="stmt"/>
+        <line num="93" count="14" type="stmt"/>
+        <line num="98" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="tests.helpers">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="employees.ts" path="C:\Users\gusta\projetos\kpi\kpi-api\src\tests\helpers\employees.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="utils">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="CustomError.ts" path="C:\Users\gusta\projetos\kpi\kpi-api\src\utils\CustomError.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="5" count="5" type="stmt"/>
+        <line num="6" count="5" type="stmt"/>
+        <line num="7" count="5" type="stmt"/>
+      </file>
+      <file name="status.ts" path="C:\Users\gusta\projetos\kpi\kpi-api\src\utils\status.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="4" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

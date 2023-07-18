@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es6",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": false,
+    "skipLibCheck": false,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@/models/*": ["src/database/models/*"],
+      "@/controllers/*": ["src/controllers/*"],
+      "@/services/*": ["src/services/*"],
+      "@/interfaces/*": ["src/interfaces/*"],
+      "@/utils/*": ["src/utils/*"],
+      "@/helpers/*": ["src/helpers/*"],
+    },
+  },
+  "exclude": ["node_modules"],
+  "include": ["index.ts", "src/**/*"],
+  "ts-node": {
+    "require": ["tsconfig-paths/register"],
+    "compilerOptions": {
+      "module": "CommonJS"
+    },
+  },
+}
