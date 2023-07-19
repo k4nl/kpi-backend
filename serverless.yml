@@ -1,16 +1,19 @@
 service: kpi-api
 frameworkVersion: '3'
 
+useDotenv: true
+
 provider:
   name: aws
   runtime: nodejs18.x
-  memorySize: 128
+  memorySize: 128    
 
 functions:
   api:
-    handler: index.handler
+    handler: src/index.handler
     events:
       - httpApi: '*'
 
 plugins:
   - serverless-plugin-typescript
+  - serverless-dotenv-plugin

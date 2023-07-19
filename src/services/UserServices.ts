@@ -4,8 +4,13 @@ import CustomError from "../utils/CustomError";
 
 class UserService {
 
+  static transformEmail(email: string) {
+    if (email.includes('@kpis.tech')) return email;
+    return `${email}@kpis.tech`;
+  }
+
   static async getByEmail(email: string) {
-    const user = await User.findOne({ where: { email } });
+    const user = await User.findOne({ where: { email: UserService.transformEmail(email) } });
     if (!user) throw new CustomError(404, 'User not found');
     return user;
   }
@@ -17,10 +22,10 @@ class UserService {
   }
 
   static async get(param: string) {
-    if (param.includes('src')) {
-      return await this.getByEmail(param);
+    if (!isNaN(param as any)) {
+      return await this.getById(Number(param));
     }
-    return await this.getById(Number(param));
+    return await this.getByEmail(param);
   }
 }
 

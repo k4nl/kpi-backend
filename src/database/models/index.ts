@@ -1,5 +1,8 @@
 import { Sequelize } from 'sequelize-typescript';
 import config from '../config/config.js';
+import User from './user.model';
+import Roles from './roles.model';
+import UsersManager from './userManager.model';
 
 const sequelize = new Sequelize({
   dialect: 'postgres',
@@ -7,7 +10,7 @@ const sequelize = new Sequelize({
   username: config.username,
   password: config.password,
   database: config.database,
-  models: [__dirname + '/*.model.ts']
+  models: [User, Roles, UsersManager]
 });
 
 export default sequelize;
