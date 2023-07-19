@@ -1,5 +1,5 @@
-import User from "@/models/user.model";
-import UsersManager from "@/models/userManager.model";
+import User from "../database/models/user.model";
+import UsersManager from "../database/models/userManager.model";
 
 class UsersManagerServices {
   static async getAll() {

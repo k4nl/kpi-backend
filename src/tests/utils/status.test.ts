@@ -1,4 +1,4 @@
-import { statusCode } from "@/utils/status";
+import { statusCode } from "../../utils/status";
 
 describe("statusCode", () => {
   it("should have the correct properties and values", () => {

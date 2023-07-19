@@ -1,6 +1,6 @@
-import OrganizationTree from "@/helpers/OrganizationTree";
+import OrganizationTree from "../helpers/OrganizationTree";
 import UserService from "./UserServices";
-import UsersManagerServices from "@/services/UsersManagerServices";
+import UsersManagerServices from "../services/UsersManagerServices";
 
 class DashboardServices {
 

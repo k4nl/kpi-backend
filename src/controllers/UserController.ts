@@ -1,7 +1,7 @@
-import UserServices from "@/services/UserServices";
-import { IError } from "@/interfaces/error.interface";
+import UserServices from "../services/UserServices";
+import { IError } from "../interfaces/error.interface";
 import { Request, Response } from "express";
-import { statusCode } from "@/utils/status";
+import { statusCode } from "../utils/status";
 
 export default class UserController {
   static async get(req: Request, res: Response) {
@@ -9,6 +9,7 @@ export default class UserController {
       const response = await UserServices.get(req.params.param);
       return res.status(statusCode.SUCCESS).json(response);
     } catch (error: IError | any) {
+      console.log(error)
       return res.status(error.status).json(error.data);
     }
   }

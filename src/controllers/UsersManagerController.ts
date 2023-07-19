@@ -1,7 +1,7 @@
-import UsersManagerServices from "@/services/UsersManagerServices";
-import { IError } from "@/interfaces/error.interface";
+import UsersManagerServices from "../services/UsersManagerServices";
+import { IError } from "../interfaces/error.interface";
 import { Request, Response } from "express";
-import { statusCode } from "@/utils/status";
+import { statusCode } from "../utils/status";
 
 export default class UsersManagerController {
   static async getAll(_req: Request, res: Response) {

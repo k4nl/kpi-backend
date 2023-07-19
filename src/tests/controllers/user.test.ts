@@ -1,8 +1,8 @@
 import { Request, Response } from "express";
-import UserController from "@/controllers/UserController";
-import UserServices from "@/services/UserServices";
-import { statusCode } from "@/utils/status";
-import CustomError from "@/utils/CustomError";
+import UserController from "../../controllers/UserController";
+import UserServices from "../../services/UserServices";
+import { statusCode } from "../../utils/status";
+import CustomError from "../../utils/CustomError";
 
 const userResponse = {
   id: 1,

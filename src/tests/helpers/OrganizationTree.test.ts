@@ -1,5 +1,5 @@
-import OrganizationTree from "@/helpers/OrganizationTree";
-import { Employee } from "@/interfaces/organization-tree.interface";
+import OrganizationTree from "../../helpers/OrganizationTree";
+import { Employee } from "../../interfaces/organization-tree.interface";
 import { employeesData } from "./employees";
 
 describe("OrganizationTree", () => {

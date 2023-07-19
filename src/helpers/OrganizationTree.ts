@@ -1,4 +1,4 @@
-import { User, Employee } from "@/interfaces/organization-tree.interface";
+import { User, Employee } from "../interfaces/organization-tree.interface";
 
 class TreeNode {
   user: User;

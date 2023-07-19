@@ -1,8 +1,8 @@
 import { Request, Response } from "express";
-import UsersManagerController from "@/controllers/UsersManagerController";
-import UsersManagerServices from "@/services/UsersManagerServices";
-import { statusCode } from "@/utils/status";
-import CustomError from "@/utils/CustomError";
+import UsersManagerController from "../../controllers/UsersManagerController";
+import UsersManagerServices from "../../services/UsersManagerServices";
+import { statusCode } from "../../utils/status";
+import CustomError from "../../utils/CustomError";
 
 const userManagerResponse = [
   {

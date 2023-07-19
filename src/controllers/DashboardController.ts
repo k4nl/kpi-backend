@@ -1,7 +1,7 @@
-import DashboardServices from "@/services/DashboardServices";
-import { IError } from "src/interfaces/error.interface";
+import DashboardServices from "../services/DashboardServices";
+import { IError } from "../interfaces/error.interface";
 import { Request, Response } from "express";
-import { statusCode } from "@/utils/status";
+import { statusCode } from "../utils/status";
 
 export default class DashboardController {
   static async get(req: Request, res: Response) {

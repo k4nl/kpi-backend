@@ -1,8 +1,8 @@
 import { Request, Response } from "express";
-import DashboardController from "@/controllers/DashboardController";
-import DashboardServices from "@/services/DashboardServices";
-import { statusCode } from "@/utils/status";
-import CustomError from "@/utils/CustomError";
+import DashboardController from "../../controllers/DashboardController";
+import DashboardServices from "../../services/DashboardServices";
+import { statusCode } from "../../utils/status";
+import CustomError from "../../utils/CustomError";
 
 const dashboardResponse = [
   {

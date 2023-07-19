@@ -1,4 +1,4 @@
-import CustomError from "@/utils/CustomError";
+import CustomError from "../../utils/CustomError";
 
 describe("CustomError", () => {
   it("should set the status and data properties correctly", () => {

@@ -1,9 +1,6 @@
-// import User from "src/database/models/User";
-import User from "@/models/user.model";
-import Roles from "@/models/roles.model";
-import UsersManager from "@/models/userManager.model";
-import { Sequelize } from "sequelize-typescript";
-import CustomError from "src/utils/CustomError";
+// import User from "database/models/User";
+import User from "../database/models/user.model";
+import CustomError from "../utils/CustomError";
 
 class UserService {
 
@@ -20,7 +17,7 @@ class UserService {
   }
 
   static async get(param: string) {
-    if (param.includes('@')) {
+    if (param.includes('src')) {
       return await this.getByEmail(param);
     }
     return await this.getById(Number(param));
